@@ -1,4 +1,3 @@
-<img width="1917" height="1020" alt="Screenshot 2026-11-25 102124" src="https://github.com/user-attachments/assets/955affb0-226c-45e0-bab5-159afc06f0bf" />
 # Three-Tier Web Application Deployment on AWS
 
 ## Project Overview
