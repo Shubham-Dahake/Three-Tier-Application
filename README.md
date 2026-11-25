@@ -126,11 +126,11 @@ Created two route tables.
 
 Launched three EC2 instances inside the custom VPC.
 
-  EC2 Instance   Subnet             Purpose
-  -------------- ------------------ -----------------------
-  Proxy Server   Public Subnet      Nginx Reverse Proxy
-  App Server     Private Subnet 1   Java + Apache Tomcat
-  DB Server      Private Subnet 2   Database server setup
+ | EC2 Instance | Subnet | Purpose |
+|---|---|---|
+| Proxy Server | Public Subnet | Nginx Reverse Proxy |
+| App Server | Private Subnet 1 | Java + Apache Tomcat |
+| DB Server | Private Subnet 2 | Database server setup |
 
 The Proxy Server is publicly accessible. The private instances are
 accessed through the Proxy Server using SSH jump/bastion access.
@@ -139,12 +139,12 @@ accessed through the Proxy Server using SSH jump/bastion access.
 
 Configured Security Groups to control communication between the servers.
 
-  Port   Protocol   Service           Purpose
-  ------ ---------- ----------------- ----------------------------------
-  22     TCP        SSH               Remote server access
-  80     TCP        HTTP              Web application access
-  3306   TCP        MySQL / MariaDB   Database connectivity
-  8080   TCP        Tomcat            Application server communication
+  | Port | Protocol | Service | Purpose |
+|---|---|---|---|
+| 22 | TCP | SSH | Remote server access |
+| 80 | TCP | HTTP | Web application access |
+| 3306 | TCP | MySQL / MariaDB | Database connectivity |
+| 8080 | TCP | Tomcat | Application server communication |
 
 Rules should be restricted to trusted IP addresses and the appropriate
 source Security Groups. Avoid exposing SSH, Tomcat, or database ports to
