@@ -284,22 +284,13 @@ SELECT * FROM students;
 
 #### Students Table Structure
 
-  Column                  Description
-  ----------------------- -----------------------
-  `student_id`            Student ID
-  `student_name`          Student Name
-  `student_addr`          Student Address
-  `student_age`           Student Age
-  `student_qual`          Student Qualification
-  `student_percent`       Student Percentage
-  `student_year_passed`   Student Year Passed
+ 
 
 The `student_id` column is the primary key and is configured with
 auto-increment.
 
 #### Database Table Structure
 
-![MariaDB students table
 
 <img width="731" height="226" alt="Screenshot 2026-11-25 102621" src="https://github.com/user-attachments/assets/1bffe91c-b351-4ed5-9dc1-4d85a3fc7ae6" />
 
@@ -361,11 +352,11 @@ Nginx Reverse Proxy.
 
 #### Student Registration Form
 
-![Student Registration
 <img width="1917" height="1020" alt="Screenshot 2026-11-25 102124" src="https://github.com/user-attachments/assets/6ff9b019-aeb1-4d1d-a46b-a4440d1233b9" />
 
 
 #### Students List
+
 <img width="1917" height="1020" alt="Screenshot 2026-11-25 102107" src="https://github.com/user-attachments/assets/c2dde6f8-d97a-40e8-8e69-5b8bf65b9465" />
 
 
@@ -404,19 +395,4 @@ Computing.**
 
 ------------------------------------------------------------------------
 
-## Repository Screenshot Guide
 
-All screenshot files are stored in the `screenshots` folder. If you
-replace an image, keep the same filename so the README image link
-continues to work.
-
-  File                                        Screenshot
-  ------------------------------------------- -----------------------------------------------
-  `01-vpc-subnets-route-tables.png`           VPC, subnets and route tables
-  `02-internet-nat-gateway.png`               Internet Gateway and NAT Gateway
-  `03-mariadb-students-table-structure.png`   MariaDB table structure
-  `04-mariadb-student-records.png`            Student records in MariaDB
-  `05-apache-tomcat.png`                      Tomcat page
-  `06-student-registration-form.png`          Registration form
-  `07-students-list.png`                      Students list
-  `architecture.png`                          Add your three-tier architecture diagram here
