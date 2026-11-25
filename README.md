@@ -1,3 +1,4 @@
+<img width="1917" height="1020" alt="Screenshot 2026-11-25 102124" src="https://github.com/user-attachments/assets/955affb0-226c-45e0-bab5-159afc06f0bf" />
 # Three-Tier Web Application Deployment on AWS
 
 ## Project Overview
@@ -122,12 +123,13 @@ Created two route tables.
 #### VPC and Subnet Resource Map
 
 ![VPC, subnets and route
-tables](screenshots/01-vpc-subnets-route-tables.png)
+<img width="1562" height="557" alt="Screenshot 2026-11-24 165607" src="https://github.com/user-attachments/assets/19261388-a8df-4287-804f-5222685b4eb4" />
+
 
 #### Internet Gateway and NAT Gateway Connections
 
 ![Internet Gateway and NAT
-Gateway](screenshots/02-internet-nat-gateway.png)
+<img width="1566" height="547" alt="Screenshot 2026-11-24 165620" src="https://github.com/user-attachments/assets/e7763a97-1fa7-4fd1-8e36-f0ac8a2d8078" />
 
 ### 6. EC2 Instance Deployment
 
@@ -301,11 +303,13 @@ auto-increment.
 #### Database Table Structure
 
 ![MariaDB students table
-structure](screenshots/03-mariadb-students-table-structure.png)
+
+<img width="731" height="226" alt="Screenshot 2026-11-25 102621" src="https://github.com/user-attachments/assets/1bffe91c-b351-4ed5-9dc1-4d85a3fc7ae6" />
 
 #### Student Records in MariaDB
 
-![MariaDB student records](screenshots/04-mariadb-student-records.png)
+<img width="1185" height="147" alt="Screenshot 2026-11-25 102650" src="https://github.com/user-attachments/assets/24f8cbc7-c227-4d8c-81e3-bd08fb53c698" />
+
 
 ------------------------------------------------------------------------
 
@@ -327,7 +331,8 @@ Application.
 
 #### Tomcat Server Screenshot
 
-![Apache Tomcat server](screenshots/05-apache-tomcat.png)
+<img width="622" height="350" alt="Screenshot 2026-11-25 202109" src="https://github.com/user-attachments/assets/4686fb8f-44ca-414e-b83e-f5e837e55992" />
+
 
 ### 17. Restart Nginx
 
@@ -360,11 +365,13 @@ Nginx Reverse Proxy.
 #### Student Registration Form
 
 ![Student Registration
-Form](screenshots/06-student-registration-form.png)
+<img width="1917" height="1020" alt="Screenshot 2026-11-25 102124" src="https://github.com/user-attachments/assets/6ff9b019-aeb1-4d1d-a46b-a4440d1233b9" />
+
 
 #### Students List
+<img width="1917" height="1020" alt="Screenshot 2026-11-25 102107" src="https://github.com/user-attachments/assets/c2dde6f8-d97a-40e8-8e69-5b8bf65b9465" />
 
-![Students List](screenshots/07-students-list.png)
+
 
 ------------------------------------------------------------------------
 
