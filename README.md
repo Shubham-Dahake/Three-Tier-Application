@@ -121,13 +121,11 @@ Created two route tables.
 
 #### VPC and Subnet Resource Map
 
-![VPC, subnets and route
 <img width="1562" height="557" alt="Screenshot 2026-11-24 165607" src="https://github.com/user-attachments/assets/19261388-a8df-4287-804f-5222685b4eb4" />
 
 
 #### Internet Gateway and NAT Gateway Connections
 
-![Internet Gateway and NAT
 <img width="1566" height="547" alt="Screenshot 2026-11-24 165620" src="https://github.com/user-attachments/assets/e7763a97-1fa7-4fd1-8e36-f0ac8a2d8078" />
 
 ### 6. EC2 Instance Deployment
