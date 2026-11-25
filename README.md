@@ -24,21 +24,13 @@ deployment, and database connectivity.
 
 ### Three-Tier Components
 
-  -----------------------------------------------------------------------
-  Tier              Server            Technology        Responsibility
-  ----------------- ----------------- ----------------- -----------------
-  Presentation      Proxy Server      Nginx             Receives HTTP
-                                                        requests and
-                                                        forwards them
+ 
+| Tier | Server | Technology | Responsibility |
+|---|---|---|---|
+| Presentation | Proxy Server | Nginx | Receives HTTP requests and forwards them |
+| Application | App Server | Java, Tomcat 9 | Runs and processes application requests |
+| Database | Database Layer | MariaDB / Amazon RDS | Stores student records |
 
-  Application       App Server        Java, Tomcat 9    Runs and
-                                                        processes
-                                                        application
-                                                        requests
-
-  Database          Database Layer    MariaDB / Amazon  Stores student
-                                      RDS               records
-  -----------------------------------------------------------------------
 
 ## Technologies Used
 
@@ -75,11 +67,13 @@ resources.
 
 Created three subnets across three Availability Zones.
 
-  Subnet Name          Type      Availability Zone   CIDR Block
-  -------------------- --------- ------------------- ----------------
-  `public-subnet`      Public    `us-east-1a`        `10.0.0.0/20`
-  `private-subnet-1`   Private   `us-east-1b`        `10.0.16.0/20`
-  `private-subnet-2`   Private   `us-east-1c`        `10.0.32.0/20`
+ 
+| Subnet Name | Type | Availability Zone | CIDR Block |
+|---|---|---|---|
+| `public-subnet` | Public | `us-east-1a` | `10.0.0.0/20` |
+| `private-subnet-1` | Private | `us-east-1b` | `10.0.16.0/20` |
+| `private-subnet-2` | Private | `us-east-1c` | `10.0.32.0/20` |
+
 
 **Purpose:**
 
