@@ -16,9 +16,7 @@ deployment, and database connectivity.
 
 ## Architecture
 
-> **Architecture diagram:** Add your architecture diagram to the
-> `screenshots` folder and name it `architecture.png`. The image will
-> then appear below.
+
 
 <img width="1536" height="1024" alt="AWS Three-Tier Student Registration Architecture俺去也" src="https://github.com/user-attachments/assets/ad1647a0-03f3-4be1-b2af-693566f64f6a" />
 
